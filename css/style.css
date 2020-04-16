@@ -301,8 +301,6 @@
     position: relative;
     border-radius: 10px;
     word-break: break-all;
-
-
 }
 
 .fourth-section-feed-text:before {
@@ -314,7 +312,6 @@
     left: -27px;
 }
 
-
 .fourth-section-feed-name {
     display: block;
     font-size: 14px;
@@ -325,3 +322,91 @@
     font-style: normal;
 
 }
+
+.fifth-section {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.fifth-section-title {
+    width: 100%;
+    margin: 0 0 35px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #445161;
+
+}
+
+.fifth-section-tarif {
+    width: 300px;
+    border-radius: 5px;
+    background-color: #445162;
+    border: 2px solid #445162;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.fifth-section-tarif-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 16px 0 16px 0;
+}
+
+.fifth-section-tarif-price {
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #445162;
+    background-color: white;
+    padding: 18px 0 18px 0;
+    text-align: center;
+}
+
+.fifth-section-tarif-list {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    list-style-position: inside;
+    margin: 19px 0 0 0;
+    text-align: left;
+    padding: 0 0 0 20px;
+}
+
+.fifth-section-tarif-button {
+    width: 260px;
+    height: 40px;
+    text-align: center;
+    margin: 19px 0 20px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #445161;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid;
+}
+
+.fifth-section-tarif-button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.fifth-section-tarif-button:active {
+    background-color: #fff;
+    color: #000;
+  }
