@@ -39,7 +39,7 @@
 
 .main-header-list {
     margin: 0;
-    padding: 0 0 0 25px;
+    padding: 0 0 0 35px;
     list-style-type: none;
 }
 
@@ -112,6 +112,10 @@
     font-weight: 400;
     line-height: 24px;
 }
+
+.first-section-text:last-child {
+    margin: 0;
+    }
 
 .first-section-video {
     width: 430px;
@@ -219,10 +223,11 @@
     height: 150px;
     background-color: #445161;
     float: left;
+    margin: 0 10px 0 0;
 }
 
 .third-section-figcaption {
-    margin: 0 16px 0 215px;
+    margin: 0;
 
 }
 
