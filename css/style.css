@@ -300,6 +300,9 @@
     padding: 16px 20px 16px 20px;
     position: relative;
     border-radius: 10px;
+    word-break: break-all;
+
+
 }
 
 .fourth-section-feed-text:before {
