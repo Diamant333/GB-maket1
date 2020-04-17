@@ -351,3 +351,147 @@
     }
 
 }
+
+.footer-form-input-style() {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+}
+
+.contact-icon(@path, @top, @left) {
+        content: "";
+        display: block;
+        width: 26px;
+        height: 26px;
+        /* border: 1px solid #fff; */
+        position: absolute;
+        top: @top;
+        left: @left;
+        background-image: @path;
+        background-size: cover;
+}
+.footer {
+    width: 100%;
+    background-color: #445162;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    &-title {
+        width: 100%;
+        margin: 0 0 31px 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+    &-form {
+        width: 500px;
+        margin: 0 0 0 200px;
+    }
+    &-form-input-text {
+        height: 40px;
+        margin: 0 0 21px 0;
+        .footer-form-input-style();
+    }
+    &-form-input-email {
+        height: 40px;
+        margin: 0 0 21px 0;
+        .footer-form-input-style();
+    }
+    &-form-input-textarea {
+        resize: none;
+        height: 170px;
+        margin: 0 0 21px 0;
+        .footer-form-input-style();
+    }
+    &-form-input-submit {
+        display: block;
+        width: 140px;
+        height: 40px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        font-weight: bold;
+        color: #445162;
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    &-form-input-submit:hover {
+        background-color: #ccc;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+    &-form-input-submit:active {
+        background-color: #fff;
+    }
+    &-wrp {
+        margin: 0 0 0 75px;
+    }
+    &-skype {
+        display: block;
+        position: relative;
+    }
+    &-skype:before {
+        .contact-icon(url('../img/skype_icon.png'), -4px, -29px);
+        width: 24px;
+    }
+    &-icq {
+        display: block;
+        position: relative;
+        margin: 29px 0 0 0;
+    }
+    &-icq:before {
+        .contact-icon(url('../img/icq_icon.png'), -4px, -30px);
+    }
+    &-mail {
+        display: block;
+        position: relative;
+        margin: 29px 0 0 0;
+    }
+    &-mail:before {
+        .contact-icon(url('../img/email_icon.png'), -4px, -30px);
+        width: 22px;
+        height: 22px;
+    }
+    &-phone {
+        display: block;
+        position: relative;
+        margin: 29px 0 0 0;
+    }
+    &-phone:before {
+        .contact-icon(url('../img/phone_icon.png'), -4px, -30px);
+        width: 24px;
+        height: 23px;
+    }
+    &-social-wrp {
+        width: 240px;
+        height: 42px;
+        margin: 37px 0 0 -26px;
+        background-image: url('../img/social_buttons.png');
+        display: flex; 
+    }
+    &-social-link {
+        margin:0;
+        width: 240px/5;
+        height: 42px;
+    }
+    &-copyright {
+        height: 26px;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #445162;
+        font-size: 12px;
+        line-height: 26px;
+    }
+}
