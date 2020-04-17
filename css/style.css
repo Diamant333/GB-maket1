@@ -101,7 +101,7 @@
 }
 .first-section-video {
   width: 430px;
-  height: 245px;
+  height: auto;
   background-color: #445162;
   float: right;
 }
