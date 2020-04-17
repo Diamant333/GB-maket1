@@ -510,10 +510,11 @@
   margin: 37px 0 0 -26px;
   background-image: url('../img/social_buttons.png');
   display: flex;
+  justify-content: space-between;
 }
 .footer-social-link {
   margin: 0;
-  width: 48px;
+  width: 42px;
   height: 42px;
 }
 .footer-copyright {
